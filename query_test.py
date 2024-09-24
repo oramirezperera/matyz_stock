@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = conn.connect('tatoo_supplies.db')
+conn = sqlite3.connect('tatoo_supplies.db')
 cursor = conn.cursor()
 
 cursor.execute("SELECT * FROM supplies")
