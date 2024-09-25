@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 
 *.db
+#left out this file with the data of the supplies
+insert_data_script.py 
